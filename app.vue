@@ -1,6 +1,9 @@
+import { NuxtPage } from '#build/components';
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <ClientOnly>
+      <Nav />
+      <NuxtPage />
+    </ClientOnly>
   </div>
 </template>
