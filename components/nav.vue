@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-gray-800 sticky top-0" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -62,8 +62,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
   { name: "Home", link: "/", current: true },
-  { name: "About", link: "/about", current: false },
-  { name: "Credits", link: "/credits", current: false },
-  { name: "Contact", link: "/contact", current: false },
+  // { name: "About", link: "/about", current: false },
+  // { name: "Credits", link: "/credits", current: false },
+  // { name: "Contact", link: "/contact", current: false },
 ];
 </script>
